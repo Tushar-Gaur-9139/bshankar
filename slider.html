@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll to Slider Image</title>
+    <style>
+        .slider {
+            width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .slider-container {
+            display: inline-flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider img {
+            width: 600px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Buttons to Control Slider -->
+    <div class="buttons">
+        <button data-target="0">Go to Image 1</button>
+        <button data-target="1">Go to Image 2</button>
+        <button data-target="2">Go to Image 3</button>
+        <button data-target="3">Go to Image 4</button>
+        <button data-target="4">Go to Image 5</button>
+        <button data-target="5">Go to Image 6</button>
+        <button data-target="6">Go to Image 7</button>
+        <button data-target="7">Go to Image 8</button>
+        <button data-target="8">Go to Image 9</button>
+    </div>
+
+    <!-- Image Slider -->
+    <div class="slider">
+        <div class="slider-container">
+            <img src="https://via.placeholder.com/600x300?text=Image+1" alt="Image 1" id="image-0">
+            <img src="https://via.placeholder.com/600x300?text=Image+2" alt="Image 2" id="image-1">
+            <img src="https://via.placeholder.com/600x300?text=Image+3" alt="Image 3" id="image-2">
+            <img src="https://via.placeholder.com/600x300?text=Image+4" alt="Image 4" id="image-3">
+            <img src="https://via.placeholder.com/600x300?text=Image+5" alt="Image 5" id="image-4">
+            <img src="https://via.placeholder.com/600x300?text=Image+6" alt="Image 6" id="image-5">
+            <img src="https://via.placeholder.com/600x300?text=Image+7" alt="Image 7" id="image-6">
+            <img src="https://via.placeholder.com/600x300?text=Image+8" alt="Image 8" id="image-7">
+            <img src="https://via.placeholder.com/600x300?text=Image+9" alt="Image 9" id="image-8">
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const buttons = document.querySelectorAll('.buttons button');
+        const images = document.querySelectorAll('.slider img');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const targetIndex = button.getAttribute('data-target');
+                const targetImage = document.getElementById(`image-${targetIndex}`);
+
+                // Scroll the target image into view
+                targetImage.scrollIntoView({
+                    behavior: 'smooth', // Smooth scrolling
+                    block: 'center', // Align to the center of the container
+                    inline: 'center'  // Center horizontally
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

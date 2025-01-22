@@ -1,0 +1,238 @@
+.work-process-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-theme-forum {
+    background-color: transparent;
+    /* background-color: #086AD8; */
+    color: #000 !important;
+    border: 2px solid #086AD8;
+    transition: 400ms;
+}
+
+.btn-theme-forum:hover {
+    background-color: #086AD8;
+    color: #fff !important;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.widget-title {
+    margin-top: 50px;
+}
+
+.news-img {
+    width: 800px;
+    height: 265px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Jaiswal {
+    color: #086AD8;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.img-about {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.object {
+    object-fit: cover;
+}
+
+.mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 1400px;
+}
+
+
+/* iframe body>img {
+    width: 1400px;
+} */
+
+/* .input {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 18px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.input::placeholder {
+    color: transparent;
+}
+
+.input:focus::placeholder {
+    color: rgb(131, 128, 128);
+}
+
+.input:focus,
+.input:not(:placeholder-shown) {
+    background-color: #fff;
+    border: 1px solid rgb(98, 0, 255);
+    width: 290px;
+    cursor: none;
+    padding: 18px 16px 18px 40px;
+}
+
+.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: -1;
+    fill: rgb(98, 0, 255);
+    border: 1px solid rgb(98, 0, 255);
+}
+
+.input:hover+.icon {
+    transform: rotate(360deg);
+    transition: .2s ease-in-out;
+}
+
+.input:focus+.icon,
+.input:not(:placeholder-shown)+.icon {
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+} */
+
+.b-gallery-img {
+    width: 350px;
+    height: 235px;
+    object-fit: cover;
+}
+
+
+
+/* Popup Styling */
+/* Popup Styling */
+/* .image-popup {
+    display: none;
+    Hidden by default
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    Ensure it is above the navbar
+}
+
+.image-popup img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.image-popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.image-popup .close:hover {
+    color: red;
+}
+
+Prevent scrolling when the popup is open
+body.no-scroll {
+    overflow: hidden;
+}
+ */
+
+
+/* nav.navbar.bootsnav {
+    z-index: 2;
+} */
+
+/* .about-area .thumb .overlay {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 185px;
+    width: 185px;
+    text-align: center;
+    background: #ffffff;
+    transform: translate(50px, -50%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px #cccccc;
+} */
+
+.thumb iframe {
+    border-radius: 10px;
+}
+
+.about-area .thumb .overlay {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 215px;
+    width: 215px;
+    text-align: center;
+    background: #ffffff;
+    transform: translate(50px, -50%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+.item {
+    border-radius: 10px;
+}
+
+.item-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item-size {
+    width: 270px;
+    height: 370px;
+}

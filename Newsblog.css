@@ -1,0 +1,141 @@
+.blog-area {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.site-heading h4 {
+    color: darkblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.site-heading h2 {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.site-heading h2:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background:darkblue;
+}
+
+.blog-items .item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.blog-items .item:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.blog-items .thumb {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.blog-items .thumb img.news-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.blog-items .thumb:hover img.news-img {
+    transform: scale(1.05);
+}
+
+.blog-items .info {
+    padding: 25px;
+}
+
+.blog-items .info .cats a {
+    background: darkblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.blog-items .info .cats a:hover {
+    background:darkblue;
+}
+
+.blog-items .info .meta {
+    margin: 15px 0;
+}
+
+.blog-items .info .meta ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.blog-items .info .meta ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #666;
+    font-size: 13px;
+}
+
+.blog-items .info .meta ul li i {
+    color: #2196F3;
+    margin-right: 5px;
+}
+
+.blog-items .info h4 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blog-items .info h4 a:hover {
+    color:darkblue;
+}
+
+.btn-theme {
+    background: darkblue;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid darkblue;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow:darkblue;
+}
+
+.btn-theme:hover {
+    background: transparent;
+    color: #2196F3;
+    box-shadow: rgba(33, 150, 243, 0.1) 0px 4px 12px;
+}
+
+.flex-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Box shadow for the header section */
+.site-heading {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-bottom: 30px;
+}
