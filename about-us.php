@@ -1,8 +1,38 @@
 <?php include 'include/header.php'?>
+    <!-- Add this right after your other CSS includes in the head section -->
+    <style>
+        /* Smooth Scroll Behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Section Padding for Header Offset */
+        section[id],
+        div[id].row {
+            scroll-margin-top: 100px; /* Adjust this value based on your header height */
+            padding-top: 30px;
+        }
+
+        /* Active Section Highlight */
+        .section-active {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0.5;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+
     <!-- Start Breadcrumb 
     ============================================= -->
     <div class="breadcrumb-area shadow dark bg-fixed text-light" id="index"
-        style="background-image: url('./images/flag.jpg');">
+        style="background-image: url('./assets/img/gallery/WhatsApp\ Image\ 2024-11-21\ at\ 10.26.00\ PM\ \(1\).jpeg');">
         <div class="container">
             <!-- <div class="row align-center">
                 <div class="col-lg-6">
@@ -23,17 +53,17 @@
     <!-- Star About Area
     ============================================= -->
     <div class="about-area default-padding">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Biography Section -->
-            <div class="row" id="biography">
+            <div class=" bg-gray row" id="biography">
                 <div class="col-lg-12">
-                    <div class="site-heading text-center">
-                        <h4>Biography</h4>
+                    <div class="site-heading text-center" style="border: none;">
+                        <h4 class='bio'>Biography</h4>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img src="./images/Bshankar1.jpeg" alt="BS Jaiswal Profile" class="img-fluid rounded">
+                        <img src="./images/bshankarPolice.jpg" alt="BS Jaiswal Profile" class="img-fluid rounded">
                     </div>
                 </div>
                 <div class="col-lg-6 info">
@@ -49,7 +79,7 @@
             </div>
 
             <!-- Professional Journey Section -->
-            <div class="row mt-5" id="professional-journey">
+            <div class="bg-gray row mt-5" id="professional-journey">
                 <div class="col-lg-12">
                     <div class="site-heading text-center">
                         <h4>Professional Journey</h4>
@@ -60,22 +90,27 @@
                         <div class="timeline-item">
                             <div class="year">2020 - Present</div>
                             <h4>Joint Commissioner of Police</h4>
-                            <p>Leading technological transformation in Delhi Police</p>
-                            <img src="./images/shankar3.jpeg" alt="Current Role" class="timeline-image">
+                            <p>Leading technological transformation in Delhi Police Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nemo delectus porro rem repellendus repudiandae, reiciendis suscipit veniam accusamus odio quo ut vitae rerum esse optio reprehenderit inventore temporibus quam omnis nulla? Commodi corrupti beatae iure rerum atque dolorum illo fugit. Autem necessitatibus animi aliquam veniam consectetur aut debitis harum, placeat nulla odit consequatur nostrum modi praesentium natus repellendus quis dolore! Quisquam ullam autem ipsa repellat, amet modi, unde doloribus quae quasi ut veritatis officiis! Sequi doloremque nisi dolores distinctio, a iure repudiandae hic iusto aut accusantium iste inventore. Non aliquid repellendus voluptas sit quibusdam quas culpa quia, repudiandae esse.</p>
+                            <div class="image" style="display: flex; gap:50px">
+                                <img src="./images/shankar3.jpeg" alt="Current Role" class="timeline-image">
+                                <img src="./assets/img/gallery/WhatsApp Image 2024-11-21 at 10.26.00 PM.jpeg" alt="Current Role" class="timeline-image">
+                                <img src="./assets/img/gallery/WhatsApp Image 2024-11-21 at 10.26.00 PM.jpeg" alt="Current Role" class="timeline-image">
+                            </div>
+                            
                         </div>
-                        <div class="timeline-item">
+                        <!-- <div class="timeline-item">
                             <div class="year">2015 - 2020</div>
                             <h4>Additional Commissioner</h4>
                             <p>Headed various critical divisions including cybercrime</p>
                             <img src="./images/shankar2.jpeg" alt="Previous Role" class="timeline-image">
-                        </div>
+                        </div> -->
                         <!-- Add more timeline items as needed -->
                     </div>
                 </div>
             </div>
 
             <!-- Current Role Section -->
-            <div class="row mt-5" id="current-role">
+            <div class="bg-gray row mt-5" id="current-role">
                 <div class="col-lg-12">
                     <div class="site-heading text-center">
                         <h4>Current Role and Responsibilities</h4>
@@ -94,19 +129,19 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img src="./images/bshankerbanner.jpg" alt="Current Role" class="img-fluid rounded">
+                        <img src="./images/bshankarPolice.jpg" alt="Current Role" class="img-fluid rounded" style="margin-top: -50px;">
                     </div>
                 </div>
             </div>
 
             <!-- Achievements Section -->
-            <div class="row mt-5" id="achievements">
+            <div class="bg-gray row mt-3 " id="achievements" style="height: 800px;">
                 <div class="col-lg-12">
                     <div class="site-heading text-center">
                         <h4>Achievements and Awards</h4>
                     </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt-15" style="margin-top:20px">
                     <div class="awards-grid">
                         <div class="award-item">
                             <img src="./images/bioimage1.png" alt="President's Police Medal" class="award-image">
@@ -114,12 +149,12 @@
                             <p>Awarded for distinguished service in law enforcement</p>
                         </div>
                         <div class="award-item">
-                            <img src="./images/.jpg" alt="Innovation Award" class="award-image">
+                            <img src="./assets/img/gallery/WhatsApp Image 2024-11-21 at 10.26.01 PM.jpeg" alt="Innovation Award" class="award-image">
                             <h4>Digital Innovation Excellence</h4>
                             <p>Recognition for implementing cutting-edge police tech solutions</p>
                         </div>
                         <div class="award-item">
-                            <img src="./images/award3.jpg" alt="Leadership Award" class="award-image">
+                            <img src="./assets/img/gallery/WhatsApp Image 2024-11-21 at 10.25.59 PM (2).jpeg" alt="Leadership Award" class="award-image">
                             <h4>Leadership Excellence</h4>
                             <p>For outstanding contribution to police modernization</p>
                         </div>
@@ -131,8 +166,8 @@
 
     <!-- Start Works About 
     ============================================= -->
-    <div class="works-about-area overflow-hidden" style="margin-left: 250px;">
-        <div class="container">
+    <div class="works-about-area overflow-hidden" style="width: 100%;">
+        <div class="container-fluid">
             <div class="works-about-items default-padding">
                 <div class="row align-center">
                     <div class="col-lg-6 info">
@@ -166,91 +201,7 @@
     </div>
     <!-- End Works About Area -->
 
-    <!-- Start Work Process 
-    ============================================= -->
-    <!-- <div class="work-process-area overflow-hidden default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h4>Process</h4>
-                        <h2>How we works</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-full">
-            <div class="work-pro-items">
-                <div class="row">
-                    Single Item
-                    <div class="single-item col-lg-3 col-md-6">
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="icon">
-                                    <i class="flaticon-select"></i>
-                                    <span>01</span>
-                                </div>
-                                <h5>Choose a Service</h5>
-                                <p>
-                                    Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    End Single Item
-                    Single Item
-                    <div class="single-item col-lg-3 col-md-6">
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="icon">
-                                    <i class="flaticon-video-call"></i>
-                                    <span>02</span>
-                                </div>
-                                <h5>Request a Meeting</h5>
-                                <p>
-                                    Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    End Single Item
-                    Single Item
-                    <div class="single-item col-lg-3 col-md-6">
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="icon">
-                                    <i class="flaticon-strategy"></i>
-                                    <span>03</span>
-                                </div>
-                                <h5>Receive Custom Plan</h5>
-                                <p>
-                                    Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    End Single Item
-                    Single Item
-                    <div class="single-item col-lg-3 col-md-6">
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="icon">
-                                    <i class="flaticon-help"></i>
-                                    <span>04</span>
-                                </div>
-                                <h5>Let's Make it Happen</h5>
-                                <p>
-                                    Arose mr rapid in so vexed words. Gay welcome led add lasting chiefly say looking better. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    End Single Item
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Work Process Area -->
+
 
     <!-- Start Video Area 
     ============================================= -->
@@ -329,112 +280,49 @@
         </div>
     </div>
     <!-- End Why Choose Us Area -->
-
-
-    <!-- Start Team 
-    ============================================= -->
-    <!-- <div class="team-area default-padding-bottom bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h4>Expert Team</h4>
-                        <h2>Meet Our Leadership</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="team-items text-center">
-                <div class="row">
-                    Sngle Item
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x800.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle" class="share-toggle" hidden>
-                                    <label for="toggle" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Sporia Deko</h4>
-                                <span>Marketing</span>
-                            </div>
-                        </div>
-                    </div>
-                    End Sngle Item
-                    Sngle Item
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x800.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle-2" class="share-toggle" hidden>
-                                    <label for="toggle-2" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Adhom Jonam</h4>
-                                <span>Project Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                    End Sngle Item
-                    Sngle Item
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x800.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle-3" class="share-toggle" hidden>
-                                    <label for="toggle-3" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Turka Pruda</h4>
-                                <span>CEO, Co-Founder</span>
-                            </div>
-                        </div>
-                    </div>
-                    End Sngle Item
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Team Area -->
-
     <?php include 'include/footer.php'?>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Add offset for fixed header
+    const headerOffset = 100;
+    
+    // Function to handle smooth scrolling
+    function smoothScroll(target, duration) {
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+        const startPosition = window.pageYOffset;
+        const distance = targetPosition - startPosition;
+        
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    }
+
+    // Handle clicks on About dropdown links
+    document.querySelectorAll('.dropdown-menu a[href*="#"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').split('#')[1];
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                smoothScroll(targetElement, 1000);
+                
+                // Update URL without scrolling
+                history.pushState(null, null, `#${targetId}`);
+            }
+        });
+    });
+
+    // Handle direct links to sections (when loading page with hash in URL)
+    if (window.location.hash) {
+        setTimeout(function() {
+            const targetElement = document.querySelector(window.location.hash);
+            if (targetElement) {
+                smoothScroll(targetElement, 1000);
+            }
+        }, 100);
+    }
+});
+</script>

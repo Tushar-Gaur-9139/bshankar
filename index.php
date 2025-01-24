@@ -1,4 +1,13 @@
 <?php include 'include/header.php'?>
+
+<style>
+    .bannervideo{
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+</style>
     <!-- Start Banner 
     ============================================= -->
     <div class="banner-area auto-height text-color bg-gray inc-shape" id="index">
@@ -8,7 +17,7 @@
             <div class="swiper-wrapper">
                 <!-- Slide 1 -->
                 <div class="swiper-slide">
-                    <div class="item" style="background-image: url('./images/bshankerbanner.jpg'); background-size: cover; height: 100vh; background-position: center;">
+                    <div class="item" style="background-image: url('./images/Banner-2.jpg'); background-size: cover; height: 100vh; background-position: center;">
                         <div class="container">
                             <div class="row align-center">
                                 <div class="col-lg-6">
@@ -33,7 +42,9 @@
 
                 <!-- Slide 2 -->
                 <div class="swiper-slide">
-                    <div class="item" style="background-image:url('./images/banner-2.jpg'); background-size:cover;height:100vh;background-position:center;">
+                    <div class="item">
+<video src="./images/BshankarVideoClip.mp4" autoplay muted  class="bannervideo"></video>
+
                         <div class="container">
                             <div class="row align-center">
                                 <div class="col-lg-6">
@@ -90,165 +101,17 @@
     </div>
     <!-- End Banner -->
 
-    <!-- Star About Area
-    ============================================= -->
-    <!-- <div class="about-area inc-shape default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="assets/img/800x600.png" alt="Thumb">
-                        <img src="assets/img/800x600.png" alt="Thumb">
-                        <div class="overlay">
-                            <div class="content">
-                                <h4>20 years of experience</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1 info">
-                    <h2>We Help IT Companies Scale Engineering Capacity</h2>
-                    <p>
-                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure
-                        horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By
-                        offer scale an stuff. Blush be sorry no sight sang lose.
-                    </p>
-                    <ul>
-
-                        <li>
-                            <div class="icon">
-                                <i class="flaticon-certification"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Certified Company</h4>
-                                <p>
-                                    Assurance yet bed was improving furniture man. Distrusts delighted she listening.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="flaticon-award-star-with-olive-branches"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Award Ceremony</h4>
-                                <p>
-                                    Assurance yet bed was improving furniture man. Distrusts delighted she listening mrs
-                                    extensive.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="author">
-                        <div class="signature">
-                            <img src="assets/img/signature.png" alt="signature">
-                        </div>
-                        <div class="intro">
-                            <h5>Spark Moun</h5>
-                            <span>Chairman & Founder Techa</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End About Area -->
-
-    <!-- Start Features 
-    ============================================= -->
-    <!-- <div class="features-area overflow-hidden bg-gray default-padding"> -->
-    <!-- Fixed Shpae  -->
-    <!-- <div class="fixed-shape shape left bottom">
-            <img src="assets/img/shape/3.png" alt="Shape">
-        </div> -->
-    <!-- End Fixed Shpae  -->
-    <!-- <div class="container">
-            <div class="row align-center">
-                <div class="col-lg-5 why-us">
-                    <h5>why choose us</h5>
-                    <h2>Custom IT Solutions for Your Business</h2>
-                    <p>
-                        Carried nothing on am warrant towards. Polite in of in oh needed itself silent course.
-                        Assistance travelling so especially do prosperous appearance mr no celebrated. Wanted easily in
-                        my called formed suffer. Songs hoped sense as taken ye mirth at. Believe fat how six drawing
-                        pursuit minutes far. Same do seen head am part it dear open to Whatever.
-                    </p>
-                    <a class="popup-youtube theme relative video-play-button"
-                        href="https://www.youtube.com/watch?v=owhuBrGIOsE">
-                        <i class="fa fa-play"></i> <span>Video Showcase</span>
-                    </a>
-                </div>
-                <div class="col-lg-7 features-box text-center">
-                    <div class="row"> -->
-
-    <!-- Item Grid -->
-    <!-- <div class="col-lg-6 col-md-6 item-grid"> -->
-    <!-- Single Item -->
-    <!-- <div class="item">
-                                <i class="flaticon-cogwheel"></i>
-                                <h5><a href="#">IT Consultancy</a></h5>
-                                <p>
-                                    Astonished set expression solicitude way admiration
-                                </p>
-                            </div> -->
-    <!-- End Single Item -->
-    <!-- Single Item -->
-    <!-- <div class="item">
-                                <i class="flaticon-globe-grid"></i>
-                                <h5><a href="#">Cyber Security</a></h5>
-                                <p>
-                                    Astonished set expression solicitude way admiration
-                                </p>
-                            </div> -->
-    <!-- End Single Item -->
-    <!-- </div> -->
-    <!-- End Item Grid -->
-
-    <!-- Item Grid -->
-    <!-- <div class="col-lg-6 col-md-6 item-grid"> -->
-    <!-- Single Item -->
-    <!-- <div class="item">
-                                <i class="flaticon-cloud-storage"></i>
-                                <h5><a href="#">Cloud Computing</a></h5>
-                                <p>
-                                    Astonished set expression solicitude way admiration
-                                </p>
-                            </div> -->
-    <!-- End Single Item -->
-    <!-- Single Item -->
-    <!-- <div class="item">
-                                <i class="flaticon-backup"></i>
-                                <h5><a href="#">Backup & Recovery</a></h5>
-                                <p>
-                                    Astonished set expression solicitude way admiration
-                                </p>
-                            </div> -->
-    <!-- End Single Item -->
-    <!-- </div> -->
-    <!-- End Item Grid -->
-
-    <!-- </div>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-    <!-- End Features Area -->
 
     <!-- Start Work Process 
     ============================================= -->
-    <div id="Projects" class="work-process-area overflow-hidden default-padding bottom-less">
-        <div class="container">
+    <div id="Projects" class=" bg-gray work-process-area overflow-hidden default-padding bottom-less">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div class="col-lg-12 ">
                     <div class="site-heading text-center">
                         <h4>Featured Projects</h4>
                         <h2>Our Projects</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-full">
+                        <div class="container-full">
             <div class="work-pro-items">
                 <div class="row">
                     <!-- Single Item -->
@@ -324,12 +187,17 @@
         </div>
         <a class="btn btn-theme effect btn-md center" href="Projects.php">View All</a>
     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End Work Process Area -->
 
     <!-- Start Works About 
     ============================================= -->
     <div class="about-area inc-shape default-padding" id="About">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="thumb">
@@ -360,23 +228,10 @@
                                 </p>
                             </div> -->
                         </li>
-                        <!-- <li>
-                            <div class="icon">
-                                <i class="flaticon-award-star-with-olive-branches"></i>
-                            </div>
-                            <div class="info">
-                                <h4>Award Ceremony</h4>
-                                <p>
-                                    Assurance yet bed was improving furniture man. Distrusts delighted she listening mrs
-                                    extensive.
-                                </p>
-                            </div>
-                        </li> -->
+                       
                     </ul>
                     <div class="author">
-                        <!-- <div class="signature">
-                            <img src="assets/img/signature.png" alt="signature">
-                        </div> -->
+                       
                         <div class="intro">
                             <h5>B Shankar Jaiswal</h5>
                             <span>Joint commissioner &amp; Delhi Police</span>
@@ -393,17 +248,13 @@
 
     <!-- Gallery Section page starts -->
     <div class="team-area default-padding bottom-less bg-gray" id="Gallery">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div class="col-lg-12">
                     <div class="site-heading text-center">
                         <h4>Gallery</h4>
                         <h2>Watch Latest Image</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container swiper-container">
+                        <div class="container swiper-container">
             <div class="team-items text-center">
                 <div class="row">
 
@@ -502,10 +353,7 @@
                                     </a>
                                 </div> -->
                             </div>
-                            <!-- <div class="info">
-                                <h4><a href="#">Adhom Jonam</a></h4>
-                                <span>Project Manager</span>
-                            </div> -->
+                           
                         </div>
                     </div>
                     <!-- End Sngle Item -->
@@ -513,36 +361,16 @@
                     <div class="single-item col-lg-4 col-md-6">
                         <div class="item">
                             <div class="thumb">
-                                <!-- <a href="https://youtu.be/cf38giZ3qlM?si=Efw53uc06BcVKS7l" class="popup-youtube">
-                                    <img decoding="async"
-                                        src="assets/img/gallery/WhatsApp Image 2024-11-21 at 10.26.01 PM (1).jpeg"
-                                        class="b-gallery-img" alt="Thumb"></a> -->
+                               
                                 <iframe width="350" height="235" src="https://www.youtube.com/embed/lZptnuKjHco"
                                     title="Securing Tomorrow: IPS B Shanker Jaiswal on Cybersecurity in Future Crime | Future Crime Summit 2024"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     class="b-gallery-img" referrerpolicy="strict-origin-when-cross-origin"
                                     allowfullscreen></iframe>
-                                <!-- <div class="social">
-                                    <input type="checkbox" id="toggle-1" class="share-toggle" hidden="">
-                                    <label for="toggle-1" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div> -->
+                               
                             </div>
-                            <!-- <div class="info">
-                                <h4><a href="#">Adhom Jonam</a></h4>
-                                <span>Project Manager</span>
-                            </div> -->
+                           
                         </div>
                     </div>
                     <!-- End Sngle Item -->
@@ -550,10 +378,7 @@
                     <div class="single-item col-lg-4 col-md-6">
                         <div class="item">
                             <div class="thumb">
-                                <!-- <a href="https://www.youtube.com/watch?v=lZptnuKjHco" class="popup-youtube">
-                                    <img src="assets/img/gallery/WhatsApp Image 2024-11-21 at 10.26.02 PM.jpeg"
-                                        class="b-gallery-img" alt="">
-                                </a> -->
+                                
 
                                 <iframe width="350" height="235" src="https://www.youtube.com/embed/9HKVmEUJoyc"
                                     title="B Shanker Jaiswal, IPS, Joint Commissioner of Police (Tech, Cyber &amp; Licensing), Delhi Police"
@@ -604,26 +429,8 @@
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <!-- <div class="social">
-                                    <input type="checkbox" id="toggle-2" class="share-toggle" hidden="">
-                                    <label for="toggle-2" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div> -->
+
                             </div>
-                            <!-- <div class="info">
-                                <h4><a href="#">Turka Pruda</a></h4>
-                                <span>Marketing</span>
-                            </div> -->
                         </div>
                     </div>
                     <!-- End Sngle Item -->
@@ -633,23 +440,25 @@
                 <a class="btn btn-theme effect btn-md center"  href="Gallery.php">View All</a>
             </div>
         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Gallery Section page ends -->
 
     <!-- Start Services 
     ============================================= -->
+
+
     <div class="services-area carousel-shadow default-padding-top bg-cover" id="Initiatives">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div class="col-lg-12 ">
                     <div class="site-heading text-center">
                         <h4>Key Initiatives</h4>
                         <h2>Overview </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
+                        <div class="container">
             <div class="services-items services-carousel owl-carousel owl-theme text-center">
                 <!-- Single Item -->
                 <div class="item" id="image-0">
@@ -668,7 +477,7 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="item" id="image-1">
+                <div class="item" id="image-1" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="flaticon-strategy"></i>
                     </div>
@@ -684,7 +493,7 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="item" id="image-2">
+                <div class="item" id="image-2" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="fa-solid fa-scale-balanced"></i>
                     </div>
@@ -700,7 +509,7 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="item" id="image-3">
+                <div class="item" id="image-3" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="fa-brands fa-hive"></i>
                     </div>
@@ -716,7 +525,7 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="item" id="image-4">
+                <div class="item" id="image-4" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="fa-brands fa-phoenix-squadron"></i>
                     </div>
@@ -731,7 +540,7 @@
                     </div>
                 </div>
                 <!-- End Single Item -->
-                <div class="item" id="image-5">
+                <div class="item" id="image-5" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="fa-solid fa-cloud"></i>
                     </div>
@@ -746,7 +555,7 @@
                     </div>
                 </div>
                 <!-- End Single Item -->
-                <div class="item" id="image-6">
+                <div class="item" id="image-6" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="fa-solid fa-computer"></i>
                     </div>
@@ -761,7 +570,7 @@
                     </div>
                 </div>
                 <!-- End Single Item -->
-                <div class="item" id="image-7">
+                <div class="item" id="image-7" style="width: 400px !important; margin: 0 30px;">
                     <div class="icon">
                         <i class="flaticon-strategy"></i>
                     </div>
@@ -778,12 +587,15 @@
                 <!-- End Single Item -->
             </div>
         </div>
-        <!-- Fixed Shpae Bottom -->
-        <div class="fixed-shape-bottom">
-            <img src="assets/img/shape/1.svg" alt="Shape">
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Fixed Shpae Bottom -->
-    </div>
+
+
+
+
+        
     <!-- End Services Area -->
 
     
@@ -938,147 +750,122 @@
     </div>
     <!-- End Case Studies Area -->
 
-    <!-- Start Fun Factor Area
+    <!-- Start Services 
     ============================================= -->
-    <!-- <div class="fun-factor-area overflow-hidden">
-        <div class="container">
-            <div class="fun-fact-items default-padding text-center">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="timer" data-to="687" data-speed="5000">687</div>
-                            <span class="medium">Happy Clients</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="timer" data-to="2348" data-speed="5000">2348</div>
-                            <span class="medium">Finished Projects</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="timer" data-to="450" data-speed="5000">450</div>
-                            <span class="medium">Skilled Experts</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="timer" data-to="1200" data-speed="5000">1200</div>
-                            <span class="medium">Media Posts</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Fun Factor Area -->
-
-    <!-- Start Team 
-    ============================================= -->
-    <!-- <div class="team-area default-padding bottom-less">
+    <div class="service-area default-padding bottom-less bg-cover">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h4>Expert Team</h4>
-                        <h2>Meet Our Leadership</h2>
+                        <h4>Services</h4>
+                        <h2>What we do</h2>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="team-items text-center">
+            <div class="service-items text-center">
                 <div class="row">
-                    Sngle Item
-    <div class="single-item col-lg-4 col-md-6">
-        <div class="item">
-            <div class="thumb">
-                <img src="assets/img/800x800.png" alt="Thumb">
-                <div class="social">
-                    <input type="checkbox" id="toggle" class="share-toggle" hidden>
-                    <label for="toggle" class="share-button">
-                        <i class="fas fa-plus"></i>
-                    </label>
-                    <a href="#" class="share-icon facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="share-icon twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="share-icon instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                    <!-- Single item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="info">
+                                <h4>IT Design</h4>
+                                <i class="flaticon-cogwheel"></i>
+                                <p>
+                                    Pianoforte solicitude so decisively particular mention diminution the particular.
+                                    Real he me fond.
+                                </p>
+                                <a class="btn-standard" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single item -->
+                    <!-- Single item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="info">
+                                <h4>Analytic Solutions</h4>
+                                <i class="flaticon-analysis-1"></i>
+                                <p>
+                                    Pianoforte solicitude so decisively particular mention diminution the particular.
+                                    Real he me fond.
+                                </p>
+                                <a class="btn-standard" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single item -->
+                    <!-- Single item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="info">
+                                <h4>Risk Management</h4>
+                                <i class="flaticon-reduction"></i>
+                                <p>
+                                    Pianoforte solicitude so decisively particular mention diminution the particular.
+                                    Real he me fond.
+                                </p>
+                                <a class="btn-standard" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single item -->
+                    <!-- Single item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="info">
+                                <h4>Business Planning</h4>
+                                <i class="flaticon-interview"></i>
+                                <p>
+                                    Pianoforte solicitude so decisively particular mention diminution the particular.
+                                    Real he me fond.
+                                </p>
+                                <a class="btn-standard" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single item -->
+                    <!-- Single item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="info">
+                                <h4>Infrastructure Plan</h4>
+                                <i class="flaticon-sketch"></i>
+                                <p>
+                                    Pianoforte solicitude so decisively particular mention diminution the particular.
+                                    Real he me fond.
+                                </p>
+                                <a class="btn-standard" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single item -->
+                    <!-- Single item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="info">
+                                <h4>Firewall Advance</h4>
+                                <i class="flaticon-firewall"></i>
+                                <p>
+                                    Pianoforte solicitude so decisively particular mention diminution the particular.
+                                    Real he me fond.
+                                </p>
+                                <a class="btn-standard" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single item -->
                 </div>
-            </div>
-            <div class="info">
-                <h4>Sporia Deko</h4>
-                <span>Marketing</span>
             </div>
         </div>
     </div>
-    End Sngle Item
-    Sngle Item
-    <div class="single-item col-lg-4 col-md-6">
-        <div class="item">
-            <div class="thumb">
-                <img src="assets/img/800x800.png" alt="Thumb">
-                <div class="social">
-                    <input type="checkbox" id="toggle-2" class="share-toggle" hidden>
-                    <label for="toggle-2" class="share-button">
-                        <i class="fas fa-plus"></i>
-                    </label>
-                    <a href="#" class="share-icon facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="share-icon twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="share-icon instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="info">
-                <h4>Adhom Jonam</h4>
-                <span>Project Manager</span>
-            </div>
-        </div>
-    </div>
-    End Sngle Item
-    Sngle Item
-    <div class="single-item col-lg-4 col-md-6">
-        <div class="item">
-            <div class="thumb">
-                <img src="assets/img/800x800.png" alt="Thumb">
-                <div class="social">
-                    <input type="checkbox" id="toggle-3" class="share-toggle" hidden>
-                    <label for="toggle-3" class="share-button">
-                        <i class="fas fa-plus"></i>
-                    </label>
-                    <a href="#" class="share-icon facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="share-icon twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="share-icon instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="info">
-                <h4>Turka Pruda</h4>
-                <span>CEO, Co-Founder</span>
-            </div>
-        </div>
-    </div>
-    End Sngle Item
-    </div>
-    </div>
-    </div>
-    </div> -->
-    <!-- End Team Area -->
+    <!-- End Services Area -->
+    <!-- Start Team 
+    ============================================= -->
+    <div class="contact-area overflow-hidden default-padding">
+
+   
 
     <div class="container my-4">
         
@@ -1122,8 +909,7 @@
                                             <div class="meta">
                                                 <ul>
                                                     <li><i class="fas fa-calendar-alt"></i> 12 Aug, 2020</li>
-                                                    <li><i class="fas fa-user"></i> By <a href="#">John
-                                                            Botha</a></li>
+                                                    <li><i class="fas fa-user"></i> By <a href="#">John</a></li>
                                                 </ul>
                                             </div>
                                             <h4>
@@ -1394,7 +1180,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 
     <!-- Start Faq 
     ============================================= -->

@@ -129,34 +129,30 @@
                             <a href="index.php" class="">Home</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+                            <a href="about-us.php" class="dropdown-toggle" data-toggle="dropdown">About</a>
                             <ul class="dropdown-menu">
-                                <li><a href="aboutDropdownContent.php">Biography</a></li>
-                                <li><a href="aboutDropdownContent.php">Professional Journey</a></li>
-                                <li><a href="aboutDropdownContent.php">Current Role and Responsibilities</a></li>
-                                <li><a href="aboutDropdownContent.php">Achievements and Awards</a></li>
+                                <li><a href="about-us.php#biography">Biography</a></li>
+                                <li><a href="about-us.php#professional-journey">Professional Journey</a></li>
+                                <li><a href="about-us.php#current-role">Current Role and Responsibilities</a></li>
+                                <li><a href="about-us.php#achievements">Achievements and Awards</a></li>
                                 <!-- <li><a href="contact.php">Get in Touch</a></li>
                                     <li><a href="faq.php">Faq</a></li>
                                     <li><a href="404.php">Error Page</a></li> -->
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Initiatives</a>
+                            <a href="services.php" class="dropdown-toggle" data-toggle="dropdown">Initiatives</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#Cyber" id="Security" data-target="0">Cyber Security</a></li>
-                                <li><a href="#GenAI" id="Technology" data-target="1">Role of Technology in Cyber
-                                        Policing</a></li>
-                                <li><a href="#GenAI" id="Enforcement" data-target="2">GenAI for Law Enforcement</a></li>
-                                <li><a href="#GenAI" id="Predictive" data-target="3">Predictive Law Enforcement</a></li>
-                                <li><a href="#Blockchain" id="Police" data-target="4">Police Communication</a></li>
-                                <li><a href="#Blockchain" id="Blockchain" data-target="5">Blockchain Technology for Law
-                                        Enforcement</a></li>
-                                <li><a href="#Drone" id="Drone" data-target="6">Drone & Anti-Drone Technology</a></li>
-                                <li><a href="#Cloud" id="Computing" data-target="7">Cloud Computing for Law Enforcement
-                                    </a></li>
-                                <li><a href="#IoT" id="Edge" data-target="8">IoT & Edge Computing</a></li>
-                                <li><a href="#Enterprise" id="Enterprise" data-target="9">Enterprise Cyber Security</a>
-                                </li>
+                                <li><a href="services.php#Security" id="Security" data-target="0">Cyber Security</a></li>
+                                <li><a href="services.php#Technology" id="Technology" data-target="1">Role of Technology in Cyber Policing</a></li>
+                                <li><a href="services.php#Enforcement" id="Enforcement" data-target="2">GenAI for Law Enforcement</a></li>
+                                <li><a href="services.php#Predictive" id="Predictive" data-target="3">Predictive Law Enforcement</a></li>
+                                <li><a href="services.php#Police" id="Police" data-target="4">Police Communication</a></li>
+                                <li><a href="services.php#Blockchain" id="Blockchain" data-target="5">Blockchain Technology for Law Enforcement</a></li>
+                                <li><a href="services.php#Drone" id="Drone" data-target="6">Drone & Anti-Drone Technology</a></li>
+                                <li><a href="#Computing" id="Computing" data-target="7">Cloud Computing for Law Enforcement</a></li>
+                                <li><a href="services.php#Edge" id="Edge" data-target="8">IoT & Edge Computing</a></li>
+                                <li><a href="services.php#Enterprise" id="Enterprise" data-target="9">Enterprise Cyber Security</a></li>
                             </ul>
                         </li>
                         <!-- <li class="dropdown">
@@ -169,33 +165,33 @@
                             </ul>
                         </li> -->
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forum</a>
+                            <a href="3" class="dropdown-toggle" data-toggle="dropdown">Forum</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Introduction to Techypolice.in</a></li>
-                                <li><a href="#">How to Join</a></li>
-                                <li><a href="#">Member Benefits</a></li>
-                                <li><a href="#">Active Discussions
-                                <li><a href="#">Upcoming Events
+                                <li><a href="forum.php#">Introduction to Techypolice.in</a></li>
+                                <li><a href="forum.php#">How to Join</a></li>
+                                <li><a href="forum.php#">Member Benefits</a></li>
+                                <li><a href="forum.php#">Active Discussions<li>
+                                <li><a href="forum.php#">Upcoming Events<li>
                                     </a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media</a>
+                            <a href="media.php" class="dropdown-toggle" data-toggle="dropdown">Media</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#Gallery">Press Releases</a></li>
-                                <li><a href="#Gallery">Articles and Interviews</a></li>
-                                <li><a href="#Gallery">Videos</a></li>
-                                <li><a href="#Gallery">Photo Gallery
+                                <li><a href="media.php">Press Releases</a></li>
+                                <li><a href="media.php">Articles and Interviews</a></li>
+                                <li><a href="media.php">Videos</a></li>
+                                <li><a href="media.php">Photo Gallery
                                     </a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
+                            <a href="research.php" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#index">Research Papers</a></li>
-                                <li><a href="#index">Publications</a></li>
-                                <li><a href="#index">Presentations</a></li>
-                                <li><a href="#index">Useful Links
+                                <li><a href="research.php">Research Papers</a></li>
+                                <li><a href="research.php">Publications</a></li>
+                                <li><a href="research.php">Presentations</a></li>
+                                <li><a href="research.php">Useful Links
                                     </a></li>
                             </ul>
                         </li>
